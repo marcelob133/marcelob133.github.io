@@ -1,0 +1,371 @@
+/*CSS RESET*/
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;}
+
+/*DEFINIÇÕES CHAVE*/			
+			.none{
+				display: none;}
+			.anav:hover {
+				color: white}
+			.zeropad{
+				padding: 0;}
+	/*Background Image*/
+			body{
+				background-image: url("imagens/BlackWall.jpg");}
+	/*Fonte base*/
+			/* Chamada fonte THE WALL 1 */
+			@font-face{
+				font-family:"the_wall1"; 
+				src:url("font/Capsmall.ttf")}		
+			@font-face{
+				font-family:"the_wall2"; 
+				src:url("font/Capsmall_clean.ttf")}	
+	/*Wrapper envolvendo todo o conteúdo*/
+			.wrapper {
+				height: 100vh;}
+
+/* INICIO MENU - NAV */
+	/* CSS do Menu lateral */
+			nav{
+				position: fixed;
+				width: 25%;
+				height: 100vh;
+				max-height: 100vh;
+				background-color: rgba(165,4,2,0.90);
+				border-width:5px;
+		 		border-style: solid;
+		 		border-color: white;}
+			header{
+				height: 30vh}
+			.lateral_menu{
+				height: 40vh;
+				position: relative;}
+			footer{
+				height: 30vh;
+				position: relative;}
+
+			.espaço_superior{
+				padding-top: 7.5vh;
+				height:15vh;}
+
+	/*Texto MARCELO B.H.*/
+		.caixa_titulo{
+			font-family: the_wall2;
+			font-weight: 100;
+			padding: 10px 0 10px 0;
+			display: block;
+			border: solid 2px white;
+			box-sizing: border-box;
+			font-size: 2.2vmax;
+			color: white;
+			text-align: center;
+			margin: 0 15%;}
+
+	/*Destaque MARCELO*/
+			.logo_bold{
+				font-weight: 900;}
+
+	/*Texto Desenvolvedor Front-End*/
+			.rodape_titulo{
+				color: white;
+				font-family: the_wall2;
+				font-weight: 200;
+				font-size: 15px;
+				text-align: center;
+				padding: 0;
+				margin-top: 5px;}
+	/*Aviso rolar página */
+			#aviso{
+				display:none;
+			}
+
+	/*Itens Menu navegaçao*/
+			.navigation_section{
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				margin: 0;}
+
+
+	/*Itens do Menu*/
+			.navigation_item{
+				display:block;
+				font-family: the_wall2;
+				color: white;
+				width: 200px;
+				padding: 0px 0px;
+				box-sizing: border-box; 
+				font-size: 1.6em;
+				line-height: 2;
+				text-align: center;
+				transition: all 0.3s ease-in-out;
+				cursor: pointer;}
+
+	/*Trecho do Footer do Menu*/
+		/* Footer do Nav */
+			.footer_menu{
+				height: 75px;
+				width: 100%;
+				background-color: black;
+				border-bottom: solid 5px white;
+				border-top: solid 5px white;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				display: block;
+				position: absolute;
+				top: 50%;
+				transform: translate(0,-50%);}
+
+	/* Midias Sociais */
+			.links{
+				text-align: center;
+				font-size: 2.8em;}
+
+/* FINAL MENU - NAV*/
+
+/* INICIO TRECHO CONTEUDO PRINCIPAL */
+
+	/*HOME - Propriedades dos elementos digitados */		
+			#typed-box{
+				height: 100vh;}
+			#typed {
+				font-family: the_wall1;
+				font-size: 100px;
+				color:white;
+				display: block;
+				position: absolute;
+				top: 50%;
+				transform: translate(0,-50%);
+				margin-left: 2%;}
+				
+	/* DEMAIS PÁGINAS - Trecho Título Acima da caixa de texto principal*/
+			#header {
+				height: 20%;}
+			#header h3{
+				font-family:"the_wall2"; 
+				font-size: 6vmax;
+				color:white;
+				text-align:center;
+				display: block;
+				position: absolute;
+				margin: 0;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);}
+
+	/* Menu caixa de texto */
+			li.navigation_item2{
+				font-family: the_wall2;
+				word-spacing: 10px;}
+			.btn, .btn-lg {
+			    padding: 1% 1%;
+				border-radius: 0px;
+				border-bottom: black solid 2px}
+			.btn, .btn-lg:hover{
+				border-bottom: black solid 2px}
+			.nav-pills li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+			    color: #fff;
+			    background-color: #000000;}
+
+	/* Texto da caixa de conteudo principal */
+			p.info{
+				text-indent: 100px;
+				margin: 4vh 4vh;
+				font-size: 1.9rem;
+				font-family: 'Varela Round', sans-serif;}
+			p.info_continuos{
+				text-indent: 100px;
+				margin: 4vh 4vh 0vh 4vh;
+				font-size: 1.9rem;
+				font-family: 'Varela Round', sans-serif;}
+			p.info_continuos1{
+				text-indent: 100px;
+				margin: 0vh 4vh 4vh 4vh;
+				font-size: 1.9rem;
+				font-family: 'Varela Round', sans-serif;}
+			p.info_continuos2{
+				text-indent: 100px;
+				margin: 0vh 4vh 0vh 4vh;
+				font-size: 1.9rem;
+				font-family: 'Varela Round', sans-serif;}
+			p.no_indent{
+				text-indent: 0px;
+			}
+			p.observacao{
+				margin: 10px 4vh 4vh 4vh;
+				text-align:justify;
+				font-size: 1.6rem;
+				font-family: 'Varela Round', sans-serif;
+				font-weight: bold;}
+
+	/* Caixa do conteudo principal */			
+			.section{ 
+				background-color: rgb(241,241,241);
+				margin: 0;
+				padding: 0 0 15px 0;
+				height: auto;
+				border-radius:1%;
+				min-height:60vh;}
+			.tab-content{
+				padding:15px 15px 0 15px;}
+			h4{
+				font-family: "the_wall2"}
+
+			/* Específico da página hobbies */
+			.h-tabcontent{
+				padding: 0;
+				border: white solid 2px;
+				border-radius: 0;}
+			figure h4{
+				font-size: 30px;}
+			.controls{
+				top:25px;}
+			.hobbies-img{
+				width: 35vw;
+				height: auto;}
+
+			/* Específico da página Know-How */
+			#aqui{text-decoration:underline!important;}
+			h5{
+				font-weight: bold;}
+
+			/* Específico da página Know-How e Portfólio*/
+			.tab-content#knowhow ul li, .row#projetos ul li {
+				font-family: 'Varela Round', sans-serif;}
+
+			/* Específico da página Criação */
+			#sec_criacao{
+				background-color: #c9302c;
+				color: white;}
+			.roger{
+				color: black;
+				font-family: "the_wall2";}
+			#img_roger{
+				margin-bottom: 20px;
+				border: black solid 2px}
+			.h400{
+				position: relative;
+				width: auto;
+				height: 300px;
+				margin-bottom: 15px;
+				margin-top: -40px;}
+			#tela{
+				width: 300px;
+				height: 180px;
+				background-color: black;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%)}
+			#img_apple{
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%)}
+			.video-criacao{
+				display: block;
+				z-index: 1;
+				width: 290px;
+				height: auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);}
+
+			/* Específico da página Contato */
+			section #contato{
+				padding-top: 15px;}
+			.responsive-input{
+				width: 100%;}
+			fieldset label{
+				font-family: "the_wall2";
+				margin-top: 5px;}
+			input {
+				width:100px;
+				height: 50px;}
+			#linkteto a{
+				color: red;
+				text-decoration: none;}
+			.hidden_footer{
+				visibility: hidden;
+				clear: both;}
+/* FIM TRECHO PRINCIPAL DA PÁGINA*/
+
+/*PEQUENOS AJUSTES*/
+			.cor12{
+				padding-left:0px;}
+			.cor12top{
+				padding-top: 15px;}
+			/* Ajuste Imagem Construcao */
+			#construcao{
+				margin-top:15px;}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+    nav {
+    	display: block!important;
+    	position: static;
+        width: 100%;
+        height: 100vh;
+    }
+    #typed-box{
+    	display: none;
+    }
+    #aviso{
+    	text-align: center;
+    	display: inherit;
+    	color: orange;}
+    #header, section{
+    	display: block;
+    	clear: both;}
+    p.info, p.info_continuos, p.info_continuos1, p.info_continuos2{
+				text-indent: 30px;
+				font-size: 14px;}
+}
+@media (max-width: 870px) {
+    .footer_menu{
+    	font-size: 9px!important;
+    }
+    .links{
+    	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);}
+}
+
+@media (max-width: 870px) {
+    .footer_menu{
+    	font-size: 9px!important;
+    }
+    .links{
+    	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);}
+}
+
+@media (max-height: 650px) {
+	.espaço_superior{padding-top: 20px}
+	.caixa_titulo{font-size:20px;}
+	.rodape_titulo{font-size:15px}
+	.navigation_item{font-size: 15px}
+	footer{height: 15%;
+		   margin-top: 30px;}
+	.footer_menu{
+		height: 55px;
+    	font-size: 9px!important;}	  
+}
+
+@media (max-height: 440px) {
+	.navigation_item{height: 20px}
+	#header h3 {font-size: 50px;}
+	.caixa_titulo{font-size:15px;}
+	.rodape_titulo{font-size:10px}}
+}
