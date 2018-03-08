@@ -305,6 +305,8 @@
 			/* Ajuste Imagem Construcao */
 			#construcao{
 				margin-top:15px;}
+			div#LAYOUT{
+				overflow: hidden;}
 
 /* RESPONSIVIDADE */
 
